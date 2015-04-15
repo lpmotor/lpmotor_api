@@ -34,9 +34,11 @@ API возвращает следующие коды HTTP статуса:
 -
 
 Пример:
+
     https://auth.lpmotor.ru/api/v1/auth/signup?partner_key=9d4f&email=test@mail.ru
 
 результат:
+
     {"status":"ok", "user_key":"9d4f"}
 
 -
