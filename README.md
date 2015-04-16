@@ -57,7 +57,7 @@ API возвращает результат выполнения операци�
 
 __Пример запроса__:
 
-    https://auth.lpmotor.ru/api/v1/user/signup?partner_key=1ef26d1dc263168ae4814f5aaaa9ce8f&email=test@mail.ru
+    https://auth.lpmotor.ru/api/v1/user/signup?email=test@mail.ru&partner_key=1ef26d1dc263168ae4814f5aaaa9ce8f
 
 Результат выполнения:
 
@@ -160,7 +160,7 @@ __Пример запроса__:
 
 ##### Пример запроса
 
-    https://adm1.lpmotor.ru/api/v1/site/create?user_key=ae4814f5aaaa9ce8f1ef26d1dc263168&name=Сайт1
+    https://adm1.lpmotor.ru/api/v1/site/create?name=Сайт1&user_key=ae4814f5aaaa9ce8f1ef26d1dc263168
 
 Результат выполнения:
 
